@@ -90,7 +90,7 @@ console.log(data.get('prompt'));
 
     //fetch data from server -----bot response
 
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://codex-fefp.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
